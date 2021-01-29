@@ -8,28 +8,30 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
-public class Categoria implements Serializable{
+public class Estado  implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
-	private String nome; 
+	private String nome;
 	
-	@JsonManagedReference
-	@ManyToMany(mappedBy = "categorias")
-	private List<Produto> produtos = new ArrayList<>();
 	
-	public Categoria() {
+	@OneToMany(mappedBy="estado")//mapeamento reverso o "estado" é apenas o 
+								//atriburo que é a chave estrangeira do da classe cidade
+	
+	private List<Cidade> cidades = new ArrayList<>();
+	
+	
+	public Estado() {
 		
 	}
 
-	public Categoria(Integer id, String nome) {
+	public Estado(Integer id, String nome) {
 		super();
 		this.id = id;
 		this.nome = nome;
@@ -51,48 +53,38 @@ public class Categoria implements Serializable{
 		this.nome = nome;
 	}
 
-	@Override
-	public String toString() {
-		return "Categoria [id=" + id + ", nome=" + nome + "]";
+	public List<Cidade> getCidades() {
+		return cidades;
+	}
+
+	public void setCidades(List<Cidade> cidades) {
+		this.cidades = cidades;
 	}
 
 	@Override
-	public int hashCode() {  //hashCode gera um codigo para cada código
+	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
-		result = prime * result + ((nome == null) ? 0 : nome.hashCode());
 		return result;
 	}
 
 	@Override
-	public boolean equals(Object obj) { //equals faz a comparação entre cada objeto
+	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
 		if (obj == null)
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Categoria other = (Categoria) obj;
+		Estado other = (Estado) obj;
 		if (id == null) {
 			if (other.id != null)
 				return false;
 		} else if (!id.equals(other.id))
 			return false;
-		if (nome == null) {
-			if (other.nome != null)
-				return false;
-		} else if (!nome.equals(other.nome))
-			return false;
 		return true;
 	}
 
-	public List<Produto> getProdutos() {
-		return produtos;
-	}
-
-	public void setProdutos(List<Produto> produtos) {
-		this.produtos = produtos;
-	}
 	
 }
