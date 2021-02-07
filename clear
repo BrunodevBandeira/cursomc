@@ -1,0 +1,77 @@
+[33mcommit c733c4acaeefa85d3a2979cdddec796252bcd57a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Bruno Bandeira <brunodev29ab@gmail.com>
+Date:   Tue Feb 2 17:45:59 2021 -0300
+
+    Aula 24 - tentativa de correção de erro da class
+
+[33mcommit 5cfbc97ecd8f6c3701ca2184163c58f139aff1ee[m
+Author: Bruno Bandeira <brunodev29ab@gmail.com>
+Date:   Sat Jan 30 19:54:37 2021 -0300
+
+    Aula 24 - Erro de Class
+
+[33mcommit bc871efbaab8d0766f54c565fc54b5ff0209551f[m
+Author: Bruno Bandeira <brunodev29ab@gmail.com>
+Date:   Fri Jan 29 22:52:55 2021 -0300
+
+    Aula 23 - Cliente, telefones e endereços
+
+[33mcommit 451b29391d1b73a445eb417115ca45995de3ec0f[m
+Author: Bruno Bandeira <brunodev29ab@gmail.com>
+Date:   Fri Jan 29 22:13:10 2021 -0300
+
+    Aula 22
+
+[33mcommit 96df4bd0d7addacba9bf5263330f38ee7ecc495a[m
+Author: Bruno Bandeira <brunodev29ab@gmail.com>
+Date:   Fri Jan 29 19:32:00 2021 -0300
+
+    Aula 21 - Estado e cidade
+
+[33mcommit 29c72bf030e7bcee833fd044bc394a1212a83793[m
+Author: Bruno Bandeira <brunodev29ab@gmail.com>
+Date:   Wed Jan 27 16:34:55 2021 -0300
+
+    Aula 20, Ajuste no endpoint/Categorias/{id}
+
+[33mcommit 7b82aecce8268b40bae00722cabd9663ba53e5c4[m
+Author: Bruno Bandeira <brunodev29ab@gmail.com>
+Date:   Sun Jan 24 20:04:56 2021 -0300
+
+    Aula 19 - produtos e associação muitos para muitos
+
+[33mcommit 2620433715518f1468102fcb300442b7a5116fe1[m
+Author: Bruno Bandeira <brunodev29ab@gmail.com>
+Date:   Sat Jan 23 18:34:26 2021 -0300
+
+    Criando operação de instanciação
+
+[33mcommit 83484a10cc8f7113e1e40aea7fd2a5fb430deb06[m
+Author: Bruno Bandeira <brunodev29ab@gmail.com>
+Date:   Sat Jan 23 18:13:59 2021 -0300
+
+    Comitando aula 17
+
+[33mcommit 924eb58a2f9347655170e1c84815bbf74563fd7c[m
+Author: Bruno Bandeira <brunodev29ab@gmail.com>
+Date:   Tue Jan 19 23:57:48 2021 -0300
+
+    Banco de dados H2 e a criação de uma base de dados automatica
+
+[33mcommit 3d116a0c13cb2cf0c99fd9b7ccc77bb563553d09[m
+Author: Bruno Bandeira <brunodev29ab@gmail.com>
+Date:   Tue Jan 19 23:20:10 2021 -0300
+
+    Testando a primeira classe de dominio
+
+[33mcommit 309ff4275f8bc413064dcc22a00c55c86d21a240[m
+Author: Bruno Bandeira <brunodev29ab@gmail.com>
+Date:   Tue Jan 19 22:31:41 2021 -0300
+
+    Rest testado
+
+[33mcommit c374aa538ac188b3845e5b0919134f0c1cbfda59[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Bruno Bandeira <brunodev29ab@gmail.com>
+Date:   Tue Jan 19 21:46:28 2021 -0300
+
+    Projeto criado
